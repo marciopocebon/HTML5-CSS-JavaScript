@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculando Sentença</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <script language="JavaScript" src="_javascript/funcoes.js"></script>
+</head>
+<body>
+
+<header id="cabecalho">
+<h1>Calculando Sentença</h1>
+</header>
+
+<form method="post">
+    <fieldset id="calculo">
+        <legend>Faça seu cálculo abaixo</legend>
+        <p></p><label for="cAnos">Quantos Anos:</label>
+        <input type="number" name="anos" id="cAnos" min="1" placeholder="quantos anos de sentença" />
+        </p>
+        <p><label for="cMeses">Quantos Meses:</label>
+            <input type="number" name="meses" id="cMeses" min="1" max="11" placeholder="1 a 11" onended="verificaCampos()";"/>
+        </p>
+        <p><label for="cDias">Quantos Dias:</label>
+            <input type="number" name="dias" id="cDias" min="1" max="30" placeholder="1 a 30" onended="verificaCampos();"/>
+        </p>
+        <fieldset id="sentenca"><legend>Opções</legend>
+            <input type="radio" name="rsentenca" id="rAumenta" onclick="verificaCampos();" ><label for="rAumenta">Aumenta Pena</label><br/>
+            <input type="radio" name="rsentenca" id="rReducao" onclick="verificaCampos();" ><label for="rReducao">Reduz Pena</label>
+
+        <p><label>Aumento de Pena:</label>
+            <select name="aumenta" id="cAumenta" disabled>
+
+                <option value="1/3">1/3 - Comum</option>
+                <option value="1/2">1/2 - Comum Reicidente</option>
+                <option value="2/3">2/3 - Hediondo</option>
+                <option value="1/1">1/1 - Hediondo Reicidente</option>
+                <option value="1/1">1/1 - Revogação LC</option>
+
+            </select>
+        <p><label>Tempo de Redução:</label>
+            <select name="reducao" id="cReducao" disabled>
+
+                <option value="1/3">1/3 - Comum</option>
+                <option value="1/2">1/2 - Comum Reicidente</option>
+                <option value="2/3">2/3 - Hediondo</option>
+                <option value="1/1">1/1 - Hediondo Reicidente</option>
+                <option value="1/1">1/1 - Revogação LC</option>
+            </select>
+        </p>
+        </fieldset>
+
+        </p>
+    </fieldset>
+
+        <p id="botao">
+        <input type="image" name="calcular" id="cCalcular" value="Calcular" onclick="verificaEscolha();" src="_imagens/botao-calcular.png"/>
+
+        </p>
+
+</form>
+
+</body>
+<footer id="rodape">
+    <p>Copyright &copy; 2017 - by Flávio Oliveira<br/>
+        <a href="https://www.facebook.com/foconsultoriaemti" target="_blank">Facebook</a> |
+        <a href="http://www.flaviodeoliveira.com.br" target="_blank">Website</a></p>
+</footer>
+</body>
+</html>
