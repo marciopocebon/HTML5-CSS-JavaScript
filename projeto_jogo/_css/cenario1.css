@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('../_imagens/escuro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+body img#cInterruptor{
+    position: fixed;
+    left: 1000pt;
+    top: 450pt;
+    width: 22px;
+    height: 22px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+body img#cInterruptor2{
+    position: fixed;
+    rigt: 1000pt;
+    top: 450pt;
+    width: 12px;
+    height: 12px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor2:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+body img#cInterruptor3{
+    position: fixed;
+    left: 40pt;
+    top: 44pt;
+    width: 15px;
+    height: 15px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor3:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+body img#cInterruptor4{
+    position: fixed;
+    left: 163pt;
+    top: 419pt;
+    width: 24px;
+    height: 24px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor4:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+body img#cInterruptor5{
+    position: fixed;
+    left: 500pt;
+    top: 230pt;
+    width: 18px;
+    height: 18px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor5:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+body img#cInterruptor6{
+    position: fixed;
+    right: 134pt;
+    top: 30pt;
+    width: 30px;
+    height: 30px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor6:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+body img#cInterruptor7{
+    position: fixed;
+    right: 434pt;
+    top: 98pt;
+    width: 20px;
+    height: 20px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor7:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+
+
+
+

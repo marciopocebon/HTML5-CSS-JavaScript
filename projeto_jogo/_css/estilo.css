@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+    background-image: url('../_imagens/fundo-primeiro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+
+}
+body img#cInterruptor{
+    margin-left: 580px;
+    margin-top: 200px;
+    width: 90px;
+    height: 90px;
+    cursor: url('../_imagens/mao.png'), default;
+}
+body img#cInterruptor:hover{
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+}
+
+
+
+
+
+

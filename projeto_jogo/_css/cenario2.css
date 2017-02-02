@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('../_imagens/cenario3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
