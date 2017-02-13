@@ -1,0 +1,277 @@
+@charset "UTF-8";
+@import  url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    background-image: url("../_imagens/back5.jpg");
+    background-repeat: round;
+
+}
+ul#fotos{
+    width: 1000px;
+    margin-top: 40px;
+    padding: 50px;
+    padding-left: 200px;
+    list-style: none;
+    padding-bottom: 600px;
+}
+
+ul#fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,1);
+    transition: all .5s ease;
+    border-radius: 50%;
+}
+
+ul#fotos li span{
+    opacity: 0;
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#fotos li:hover{
+    transform: scale(1.7);
+}
+
+ul#fotos li#foto1{
+    background: url('../_imagens/foto1.jpg') no-repeat;
+    background-position: 15% 60%;
+}
+
+ul#fotos li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#foto2{
+    background: url('../_imagens/foto2.jpg') no-repeat;
+    background-position: 56% 15%;
+    background-color: #ffffff;
+}
+
+ul#fotos li#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#foto3{
+     background: url('../_imagens/foto3.jpg') no-repeat;
+     background-position: 67% 30%;
+     background-color: #ffffff;
+ }
+
+ul#fotos li#foto3:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos li#foto4{
+    background: url('../_imagens/foto4.jpg') no-repeat;
+    background-position: 20% 20%;
+    background-color: #ffffff;
+}
+ul#fotos li#foto4:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos li#foto5{
+    background: url('../_imagens/foto5.jpg') no-repeat;
+    background-position: 60% 30%;
+    background-color: #ffffff;
+}
+ul#fotos li#foto5:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos li#foto6{
+    background: url('../_imagens/foto6.jpg') no-repeat;
+    background-position: 34% 44%;
+    background-color: #ffffff;
+}
+ul#fotos li#foto6:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos li#foto7{
+    background: url('../_imagens/foto7.jpg') no-repeat;
+    background-position: 80% 40%;
+    background-color: #ffffff;
+}
+ul#fotos li#foto7:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos li#foto8{
+    background: url('../_imagens/foto8.jpg') no-repeat;
+    background-position: 80% 30%;
+    background-color: #ffffff;
+}
+ul#fotos li#foto8:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos-grupo2 li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.8);
+    transition:  1s linear;
+}
+
+ul#fotos-grupo2{
+    list-style: none;
+}
+
+ul#fotos-grupo2 li span{
+    opacity: 0;
+    color: white;
+    background-color: rgba(0,0,0,.3);
+    line-height: 370px;
+    padding: 5px;
+    list-style: none;
+}
+
+ul#fotos-grupo2 li:hover{
+    transform: rotate(360deg);
+    transform-origin: top left;
+
+}
+
+ul#fotos-grupo2 li#foto1-grupo{
+    background: url('../_imagens/foto1-grupo.jpg') no-repeat;
+    background-position: 40% 10%;
+    background-color: #ffffff;
+
+}
+
+ul#fotos-grupo2 li#foto1-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos-grupo2 li#foto2-grupo{
+    background: url('../_imagens/foto2-grupo.jpg') no-repeat;
+    background-position: 56% 15%;
+    background-color: #ffffff;
+}
+
+ul#fotos-grupo2 li#foto2-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos-grupo2 li#foto3-grupo{
+    background: url('../_imagens/foto3-grupo.jpg') no-repeat;
+    background-position: 67% 30%;
+    background-color: #ffffff;
+}
+
+ul#fotos-grupo2 li#foto3-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto4-grupo{
+    background: url('../_imagens/foto4-grupo.jpg') no-repeat;
+    background-position: 50% 20%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto4-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto5-grupo{
+    background: url('../_imagens/foto5-grupo.jpg') no-repeat;
+    background-position: 60% 30%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto5-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto6-grupo{
+    background: url('../_imagens/foto6-grupo.jpg') no-repeat;
+    background-position: 10% 64%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto6-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto7-grupo{
+    background: url('../_imagens/foto7-grupo.jpg') no-repeat;
+    background-position: 80% 40%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto7-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto8-grupo{
+    background: url('../_imagens/foto8-grupo.jpg') no-repeat;
+    background-position: 80% 30%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto8-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto9-grupo{
+    background: url('../_imagens/foto9-grupo.jpg') no-repeat;
+    background-position: 80% 30%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto9-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto10-grupo{
+    background: url('../_imagens/foto10-grupo.jpg') no-repeat;
+    background-position: 80% 30%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto10-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto11-grupo{
+    background: url('../_imagens/foto11-grupo.jpg') no-repeat;
+    background-position: 80% 30%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto11-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos-grupo2 li#foto12-grupo{
+    background: url('../_imagens/foto12-grupo.jpg') no-repeat;
+    background-position: 80% 30%;
+    background-color: #ffffff;
+}
+ul#fotos-grupo2 li#foto12-grupo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+footer#rodape {
+    color: white;
+    margin-top: 420px;
+    font-family:  'Lobster', cursive;
+}
+footer#rodape p{
+    text-align: left;
+}
+
+footer#rodape a{
+    text-decoration: none;
+    color: white;
+}
+footer#rodape a:hover{
+    color: blue;
+    transition: .5s;
+
+}
