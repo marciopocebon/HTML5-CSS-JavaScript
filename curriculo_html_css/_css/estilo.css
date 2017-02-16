@@ -1,0 +1,191 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
+
+body{
+    background-image: url("../_imagens/fundologin.jpg");
+
+}
+
+div#interface {
+    width: 900px;
+    margin: 1px auto 10px auto;
+    padding: 10px 10px 10px 10px;
+
+
+   }
+
+header#cabecalho{
+    border-bottom: 1px #606060 dashed;
+    height: 150px;
+    padding-bottom: 13px;
+}
+
+header#cabecalho img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 330px;
+}
+header#cabecalho img:hover{
+    transform: scale(1.1);
+}
+
+.wrapper {
+    padding: -10px;
+    text-align: center;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.social-icons .fa {
+    font-size: 1.8em;
+}
+
+.social-icons .fa {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{
+    border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+    border-radius:5px;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+    color: #FFF;
+    -webkit-box-shadow: 1px 1px 3px #333;
+    -moz-box-shadow: 1px 1px 3px #333;
+    box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
+}
+
+header#cabecalho h1{
+
+    font-size: 18pt;
+    color: #cecece;
+
+}
+header#cabecalho h2{
+    font-size: 12pt;
+    color: #606060;
+}
+
+div#titulos h2{
+    text-align: left;
+    font-size: 18pt;
+    color: #000000;
+    font-family: 'Playball', cursive;
+
+
+}
+div#titulos h2:hover{
+    animation: mudar 2s infinite;
+    text-decoration: underline;
+
+}
+@keyframes mudar{
+
+    from{margin-left: 0px;}
+    to{margin-left: 90px;}
+}
+
+div#interface-esquerda{
+    margin-top: -20px;
+    padding-left: 50px;
+    height:300px;
+    float: left;
+
+
+}
+
+div#interface-direita{
+    margin-top: -20px;
+    padding-left: 50px;
+    height:300px;
+    float:left;
+
+}
+h1#nome:hover {
+    color: #070709;
+}
+
+h3 {
+    font-size: 12pt;
+    color: #606060;
+    font-style: italic;
+    font-family: 'Poiret One', cursive;
+    padding-top: -80px;
+
+}
+h3:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+h4{
+    font-size: 14pt;
+    padding-bottom: -50px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 14pt;
+    font-family: 'Nothing You Could Do', cursive;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:blue;
+}
+
+
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;}
+.social-icons .fa-html5{background-color:#E54D26;}
+.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
+.social-icons .fa-linux{background-color:#FBC002;color:#333;}
+.social-icons .fa-skype{background-color:#01AEF2;}
+.social-icons .fa-windows{background-color:#12B6F3;}
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
