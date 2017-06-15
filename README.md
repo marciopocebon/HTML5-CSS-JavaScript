@@ -4,5 +4,5 @@ HTML5
 CSS3
 JavaScript
 
-Fl·vio Oliveira
+Fl√°vio Oliveira
 www.flaviodeoliveira.com.br
